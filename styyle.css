@@ -20,7 +20,22 @@ nav {
   top: 0;
 }
 
+h2 {
+  font-size: 55px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+.text-white {
+  color: #fff;
+}
 /* syntax */
+
+.ml-5 {
+  margin-left: 200px;
+}
 
 .flex {
   display: flex;
@@ -38,7 +53,7 @@ nav {
 }
 
 .container {
-  width: 80%;
+  width: 85%;
   max-width: 1220px;
   margin: 0 auto;
 }
@@ -58,6 +73,14 @@ nav {
 
 .btn-nav:hover {
   background-color: #2d2497;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* edit */
@@ -93,32 +116,45 @@ nav ul {
   display: none;
 }
 
-@media (max-width: 952px) {
-  #chek {
-    display: block;
-  }
-  .checkbtn {
-    display: block;
-  }
+.content article h1 {
+  font-size: 60px;
+}
+.content article span {
+  font-size: 60px;
+  color: #756bee;
+}
 
-  nav ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 80px;
-    left: 0;
-    text-align: center;
-  }
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  nav ul li {
-    margin-top: 20px;
-  }
+.content p,
+.content button {
+  margin-top: 20px;
+}
 
-  .btn-nav {
-    width: 100%;
-  }
+.content article h2 {
+  font-size: 30px;
+}
 
-  .block {
-    display: block;
-  }
+.bg-white h4 {
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+.bg-white {
+  padding: 120px 0;
+  background-color: #fff;
+}
+
+.bg-gray {
+  background-color: #f5f4f0;
+  padding: 120px 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
 }

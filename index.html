@@ -15,14 +15,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
     <section class="hero-1">
       <header>
         <div class="container">
           <nav class="flex justify-between align-center">
-            <a href="#" class="logo"><img src="asset/logo/Logo.png" /></a>
-            <ul class="flex block">
+            <div>
+              <a href="#" class="logo"><img src="asset/logo/Logo.png" /></a>
+            </div>
+            <ul id="navList" class="flex block">
               <li class="nav-item">
                 <a href="#">Home</a>
               </li>
@@ -35,42 +38,131 @@
               <li class="nav-item">
                 <a href="#">Service</a>
               </li>
-              <li class="nav-item">
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="" class="btn-nav">Contact</a>
+              <li class="ml-5">
+                <a href="#" class="btn-nav">Contact</a>
               </li>
             </ul>
-            <div>
-              <input type="checkbox" id="check" />
-              <label for="check" class="checkbtn" style="float: right">
-                <li href="#" class="fa fa-bars" style="font-size: 30px"></li>
-              </label>
-            </div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn fixed" style="float: right">
+              <li href="#" class="fa fa-bars" style="font-size: 30px"></li>
+            </label>
           </nav>
         </div>
       </header>
 
-      <!-- <main>
+      <main>
         <div class="container">
           <div class="content">
-            <div class="column">
-              <h1>The Better Way To Success In Your Business</h1>
+            <article>
+              <h1>The Better Way To <span>Success</span> In Your Business</h1>
               <p>
                 I seek to push the limits of creativity to create high-engaging,
                 user-friendly, and memorable interactive experiences.
               </p>
               <button href="#" class="btn-nav">HIRE ME</button>
-            </div>
-            <div class="column"></div>
+            </article>
+            <aside>
+              <figure class="img-1">
+                <img src="asset/image/image 789.png" />
+              </figure>
+            </aside>
           </div>
         </div>
-      </main> -->
+      </main>
     </section>
+
+    <main>
+      <section class="bg-white">
+        <div class="container">
+          <h4 class="text-center mt-3">
+            Trusted by the world's best companies
+          </h4>
+          <div class="content">
+            <figure>
+              <img src="asset/logo/Nike 2.png" />
+            </figure>
+            <figure>
+              <img src="asset/logo/Spotify 2.png" />
+            </figure>
+            <figure>
+              <img src="asset/logo/Google 2.png" />
+            </figure>
+            <figure>
+              <img src="asset/logo/Apple 2.png" />
+            </figure>
+            <figure>
+              <img src="asset/logo/Amazon2 2.png" />
+            </figure>
+            <figure>
+              <img src="asset/logo/Airbnb 2.png" />
+            </figure>
+          </div>
+
+          <div class="content" style="gap: 50px">
+            <aside>
+              <figure>
+                <img src="asset/image/Group 4284.png" class="mobile-size" />
+              </figure>
+            </aside>
+            <article>
+              <h2>Let your visitors know about your features.</h2>
+              <p>
+                We develop enjoyable consumer experiences, from digital strategy
+                and content to media and analysis. Leading to meaningful results
+                and satisfied clients.
+              </p>
+              <button href="#" class="btn-nav mt-3">Our Proccess</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray">
+        <article class="text-center">
+          <h2>I want company feature</h2>
+          <p>
+            We believe scaling startups require a radically different kind of
+            agency
+          </p>
+        </article>
+        <div class="container">
+          <div class="content" style="gap: 50px">
+            <aside class="card text-center">
+              <img src="asset/logo/image 10.png" />
+              <h4>Easy to purchase</h4>
+              <p>
+                A complete set of tools to enable marketing teams to curate,
+                personalize, contextualize, send, integrate and track campaigns
+                - no coding required.
+              </p>
+            </aside>
+            <aside class="card text-center" style="background-color: #7854f7">
+              <img src="asset/logo/image 11.png" />
+              <h4 class="text-white">Strategy</h4>
+              <p class="text-white">
+                A complete set of tools to enable marketing teams to curate,
+                personalize, contextualize, send, integrate and track campaigns
+                - no coding required.
+              </p>
+            </aside>
+            <aside class="card text-center">
+              <img src="asset/logo/image 10 (1).png" class="text-center" />
+              <h4 class="text-center">Agency Web</h4>
+              <p>
+                A complete set of tools to enable marketing teams to curate,
+                personalize, contextualize, send, integrate and track campaigns
+                - no coding required.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="container"></div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
