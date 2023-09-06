@@ -80,4 +80,32 @@
   .content .mobile-size {
     width: 100%;
   }
+
+  .grid {
+    display: block;
+  }
+
+  .grid-mobile {
+    display: grid;
+    grid-template-columns: 25% 25%;
+  }
+
+  .for-web {
+    display: none;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .for-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-column: 50% 50%;
+    margin-top: -50px;
+  }
 }
