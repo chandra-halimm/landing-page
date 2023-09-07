@@ -4,8 +4,14 @@
     background-color: #fbf7ec;
   }
 
+  .navbar-bg {
+    padding: 20px 0;
+    background-color: #fbf7ec;
+  }
+
   .hero-1 {
-    height: 550px;
+    padding: 30px;
+    background-color: #fbf7ec;
   }
 
   .ml-5 {
